@@ -5,6 +5,6 @@ public class TestMain {
         Undervisere under1 = new Undervisere("Karen Matilde", "55887744");
         Kursus kursus1 = new Kursus("Parkour", "En urban sprotsgren.", "Fysisk aktivitet");
 
-        
+
     }
 }
