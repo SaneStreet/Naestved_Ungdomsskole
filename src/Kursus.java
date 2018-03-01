@@ -34,15 +34,16 @@ public class Kursus extends Skole {
         this.kursusFag = kursusFag;
     }
 
-    //private int antalElever;
-    //private String underviserNavn;
-    //private String kursusLokale;
+    private int antalElever;
+    private String underviserNavn;
+    private String kursusLokale;
+
 
 
 
     private Lokale[] lokaler = new Lokale[10];
 
-    public Kursus(){
+    public void Kursus(){
         Lokale lokale1 =  new Lokale("lokale1");
         Lokale lokale2 =  new Lokale("lokale2");
         Lokale lokale3 =  new Lokale("lokale3");

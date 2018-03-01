@@ -1,22 +1,38 @@
-public class Elever extends Skole{
-    private String elevNavn;
+public class Elever extends Skole {
+    private String elevFornavn;
+    private String elevEfternavn;
+    private String elevKlasse;
     private String elevAlder;
-    private String elevTlf;
 
-    private Elever[] elever = new Elever[20];
-
-    public Elever(String elevNavn, String elevAlder, String elevTlf) {
-        this.elevNavn = elevNavn;
+    public Elever(String elevFornavn, String elevEfternavn, String elevKlasse, String elevAlder) {
+        this.elevFornavn = elevFornavn;
+        this.elevEfternavn = elevEfternavn;
+        this.elevKlasse = elevKlasse;
         this.elevAlder = elevAlder;
-        this.elevTlf = elevTlf;
     }
 
-    public String getElevNavn() {
-        return elevNavn;
+    public String getElevFornavn() {
+        return elevFornavn;
     }
 
-    public void setElevNavn(String elevNavn) {
-        this.elevNavn = elevNavn;
+    public void setElevFornavn(String elevFornavn) {
+        this.elevFornavn = elevFornavn;
+    }
+
+    public String getElevEfternavn() {
+        return elevEfternavn;
+    }
+
+    public void setElevEfternavn(String elevEfternavn) {
+        this.elevEfternavn = elevEfternavn;
+    }
+
+    public String getElevKlasse() {
+        return elevKlasse;
+    }
+
+    public void setElevKlasse(String elevKlasse) {
+        this.elevKlasse = elevKlasse;
     }
 
     public String getElevAlder() {
@@ -27,11 +43,4 @@ public class Elever extends Skole{
         this.elevAlder = elevAlder;
     }
 
-    public String getElevTlf() {
-        return elevTlf;
-    }
-
-    public void setElevTlf(String elevTlf) {
-        this.elevTlf = elevTlf;
-    }
 }
