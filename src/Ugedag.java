@@ -1,2 +1,3 @@
-public class Ugedag {
+public enum Ugedag {
+    MANDAG, TIRSDAG, ONSDAG, TORSDAG, FREDAG, LOERDAG, SOENDAG
 }
