@@ -1,4 +1,4 @@
-public class Lokale {
+public class Lokale extends Skole {
     private String lokalenr;
 
     public Lokale(String lokalenr){
@@ -8,7 +8,7 @@ public class Lokale {
     public String getLokalenr() {
         return lokalenr;
     }
-    public void setLokalenr(String lokalenr){
+    public void setLokalenr(String Lokale){
         this.lokalenr = lokalenr;
     }
 }

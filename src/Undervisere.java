@@ -1,4 +1,4 @@
-public class Undervisere {
+public class Undervisere extends Skole{
     private String underviserNavn;
     private String underviserTlf;
 

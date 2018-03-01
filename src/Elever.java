@@ -1,4 +1,4 @@
-public class Elever {
+public class Elever extends Skole{
     private String elevNavn;
     private String elevAlder;
     private String elevTlf;
