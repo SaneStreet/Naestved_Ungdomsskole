@@ -2,7 +2,7 @@ public class Kursus extends Skole {
     private String kursusNavn;
     private String kursusInfo;
     private String kursusFag;
-    
+
 
     public Kursus(String kursusNavn, String kursusInfo, String kursusFag) {
         this.kursusNavn = kursusNavn;
@@ -54,5 +54,7 @@ public class Kursus extends Skole {
         Lokale lokale8 =  new Lokale("lokale8");
         Lokale lokale9 =  new Lokale("lokale9");
         Lokale lokale10 = new Lokale("lokale10");
+
+
     }
 }
