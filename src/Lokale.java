@@ -1,7 +1,7 @@
-public class Lokale{
+public class Lokale {
     private String lokalenr;
 
-    public Lokale(String lokalenr){
+    public Lokale(String lokalenr) {
         this.lokalenr = lokalenr;
         LokaleList.add(this);
     }
@@ -10,7 +10,8 @@ public class Lokale{
     public String getLokalenr() {
         return lokalenr;
     }
-    public void setLokalenr(String Lokale){
+
+    public void setLokalenr(String Lokale) {
         this.lokalenr = lokalenr;
     }
 }

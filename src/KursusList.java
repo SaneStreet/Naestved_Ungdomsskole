@@ -10,4 +10,5 @@ public class KursusList {
     public static ArrayList<Kursus> getKursusArrayList(){
         return KursusArrayList;
     }
+
 }

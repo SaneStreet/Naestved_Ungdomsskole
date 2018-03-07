@@ -1,7 +1,7 @@
 public class Skole {
     private String navn;
 
-    public Skole(String navn){
+    public Skole(String navn) {
         this.navn = navn;
     }
 
@@ -9,6 +9,7 @@ public class Skole {
     public String getNavn() {
         return navn;
     }
+
     public void setNavn(String navn) {
         this.navn = navn;
     }

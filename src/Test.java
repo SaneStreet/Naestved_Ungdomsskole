@@ -13,5 +13,6 @@ public class Test {
                 + "\nUnderviser: " + andras.getUnderviserNavn()
                 + "\nLokale: " + na005.getLokalenr());
 
+
     }
 }

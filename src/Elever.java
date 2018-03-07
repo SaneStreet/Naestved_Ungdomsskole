@@ -18,6 +18,7 @@ public class Elever {
     public String getElevFornavn() {
         return elevFornavn;
     }
+
     public void setElevFornavn(String elevFornavn) {
         this.elevFornavn = elevFornavn;
     }
@@ -26,6 +27,7 @@ public class Elever {
     public String getElevEfternavn() {
         return elevEfternavn;
     }
+
     public void setElevEfternavn(String elevEfternavn) {
         this.elevEfternavn = elevEfternavn;
     }
@@ -34,6 +36,7 @@ public class Elever {
     public String getElevKlasse() {
         return elevKlasse;
     }
+
     public void setElevKlasse(String elevKlasse) {
         this.elevKlasse = elevKlasse;
     }
@@ -42,6 +45,7 @@ public class Elever {
     public int getElevAlder() {
         return elevAlder;
     }
+
     public void setElevAlder(int elevAlder) {
         this.elevAlder = elevAlder;
     }
@@ -50,6 +54,7 @@ public class Elever {
     public String getLoginNavn() {
         return loginNavn;
     }
+
     public void setLoginNavn(String loginNavn) {
         this.loginNavn = loginNavn;
     }
@@ -58,6 +63,7 @@ public class Elever {
     public String getLoginPass() {
         return loginPass;
     }
+
     public void setLoginPass(String loginPass) {
         this.loginPass = loginPass;
     }

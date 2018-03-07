@@ -1,4 +1,4 @@
-public class Undervisere{
+public class Undervisere {
     private String underviserNavn;
     private String underviserTlf;
 
@@ -7,10 +7,12 @@ public class Undervisere{
         this.underviserTlf = underviserTlf;
         UnderviserList.add(this);
     }
+
     //Get n' Set Underviser Navn
     public String getUnderviserNavn() {
         return underviserNavn;
     }
+
     public void setUnderviserNavn(String underviserNavn) {
         this.underviserNavn = underviserNavn;
     }
@@ -19,6 +21,7 @@ public class Undervisere{
     public String getUnderviserTlf() {
         return underviserTlf;
     }
+
     public void setUnderviserTlf(String underviserTlf) {
         this.underviserTlf = underviserTlf;
     }
